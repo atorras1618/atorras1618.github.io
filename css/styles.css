@@ -1,0 +1,97 @@
+/* Color Palette
+ * #81717A OLD LAVENDER
+ * #9D8CA1 SPANISH GRAY
+ * #9993B2 MANATEE
+ * #A7ABDD MAXIMUM BLUE PURPLE
+ * #B4D4EE PALE AQUA
+ */
+
+/*Global styles--------------------------*/
+
+body {
+    font-family: sans-serif;
+    margin:0;
+}
+a { 
+    color: white;
+}
+a:hover {
+    text-decoration:none;
+}
+a:active {
+    color: #B4D4EE;
+} 
+h1 {
+    font-weight: 700;
+    font-size:  60px;
+}
+h2, h3 {
+    font-weight: 400;
+}
+h2 {
+    font-size:  40px;
+}
+h3 {
+    font-size:  20px;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+/*Header & Footer -------------------------------*/
+header, footer {
+    background: #81717A;
+    color: #A7ABDD;
+}
+/* header */
+header h1, header h2, header h3 {
+    color: #B4D4EE;
+}
+/* footer */
+footer h2, footer h3 {
+    color: #B4D4EE;
+}
+
+.contact-info {
+    display: inline-block;
+    float: left;
+    margin-right: 10em;
+}
+
+footer {
+    height: 25em;
+}
+
+/*main ------------------------------------------*/
+main h2, main h3 {
+    color: #9D8CA1;
+}
+
+a:active {
+    color: #9D8CA1;
+} 
+
+.paper-img {
+    height: 10em;
+    float: left;
+    margin-right:2em;
+}
+
+.preprints {
+    background: #B4D4EE;
+    color: #81717A;
+}
+
+.talks {
+    background: #B4D4EE;
+    color: #81717A;
+}
+
+.teaching {
+    background: #B4D4EE;
+    color: #81717A;
+}
+
+
